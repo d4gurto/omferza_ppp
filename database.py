@@ -8,7 +8,7 @@ def obtener_conexion():
     url = os.getenv("DB_URL")
     
     if not url:
-        print("❌ Error: No se pudo leer DB_URL del archivo .env")
+        print("Error: No se pudo leer DB_URL del archivo .env")
         return None
         
     try:
